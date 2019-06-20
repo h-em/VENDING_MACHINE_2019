@@ -23,7 +23,7 @@ public class VendingMachineImpl implements VendingMachine {
 
     private void initialize() {
         itemInventory = new Inventory<Item>();
-        itemInventory.put(Item.MARS, 5);
+        itemInventory.put(Item.MARS, 100);
         itemInventory.put(Item.BOUNTY, 5);
         itemInventory.put(Item.TWIX, 5);
 

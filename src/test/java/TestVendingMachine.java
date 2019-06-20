@@ -23,11 +23,6 @@ public class TestVendingMachine {
         vm = (VendingMachineImpl) VendingMachineFactory.createVendingMacchine();
     }
 
-/*
-    @AfterClass
-    public static void  clear(){
-        vm = null;
-    }*/
 
     @Test
     public void testIfPriceOfMarsThanGetPriceMethodReturn25() throws SoldOutException {
@@ -88,18 +83,16 @@ public class TestVendingMachine {
             vm.collectItemAndChange();
         }
     }
-
-
-    /*
+    
         @Test(expected = NotSufficientChangeException.class)
         public void testWhenDoesNotExistEnoughtCashThenThrowNotSufficientChangeException() throws SoldOutException, NotSufficientChangeException, NotFullyPaidException {
 
-            for(int i=0; i<4; i++) {
+            for(int i=0; i<40; i++) {
                 vm.insertCoin(Coin.FIFTY);
                 vm.selectItemAndGetPrice(Item.MARS);
                 vm.collectItemAndChange();
             }
-        }*/
+        }
 
     @Test(expected = NotFullyPaidException .class)
     public void testWhenNotEnoughtCoinAreAddedIntoVMThenThrowNotFullyPaidException() throws SoldOutException, NotSufficientChangeException, NotFullyPaidException {

@@ -95,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestVendingMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="102" column="48" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
+            <state relative-caret-position="131">
+              <caret line="93" column="53" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#620#621#0" expanded="true" />
@@ -113,6 +113,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -134,11 +137,12 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="width" value="978" />
     <option name="height" value="1039" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -211,7 +215,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561026277888" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561026880567" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TDD" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -235,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestVendingMachine.testWhenNotEnoughtCoinAreAddedIntoVMThenThrowNotFullyPaidException">
+  <component name="RunManager" selected="JUnit.TestVendingMachine.testWhenDoesNotExistEnoughtCashThenThrowNotSufficientChangeException">
     <configuration name="TestVendingMachine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VendingMachine_M" />
       <option name="PACKAGE_NAME" value="" />
@@ -287,10 +291,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestVendingMachine.testWhenNotEnoughtCoinAreAddedIntoVMThenThrowNotFullyPaidException" />
         <item itemvalue="JUnit.TestVendingMachine.testWhenDoesNotExistEnoughtCashThenThrowNotSufficientChangeException" />
-        <item itemvalue="JUnit.TestVendingMachine.testWhenAnItemDoesNotExistThenThrowSoldOutException" />
         <item itemvalue="JUnit.TestVendingMachine" />
+        <item itemvalue="JUnit.TestVendingMachine.testWhenNotEnoughtCoinAreAddedIntoVMThenThrowNotFullyPaidException" />
+        <item itemvalue="JUnit.TestVendingMachine.testWhenAnItemDoesNotExistThenThrowSoldOutException" />
         <item itemvalue="JUnit.TestVendingMachine.testIfPriceOfMarsThanGetPriceMethodReturn25" />
       </list>
     </recent_temporary>
@@ -309,12 +313,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestVendingMachine_testWhenAnItemDoesNotExistThenThrowSoldOutException - 2019.06.20 at 13h 06m 55s.xml">
-      <configuration name="TestVendingMachine.testWhenAnItemDoesNotExistThenThrowSoldOutException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestVendingMachine_testWhenAnItemDoesNotExistThenThrowSoldOutException - 2019.06.20 at 13h 08m 00s.xml">
-      <configuration name="TestVendingMachine.testWhenAnItemDoesNotExistThenThrowSoldOutException" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestVendingMachine_testWhenAnItemDoesNotExistThenThrowSoldOutException - 2019.06.20 at 13h 14m 33s.xml">
       <configuration name="TestVendingMachine.testWhenAnItemDoesNotExistThenThrowSoldOutException" configurationId="JUnit" />
     </history-entry>
@@ -339,6 +337,12 @@
     <history-entry file="TestVendingMachine_testWhenDoesNotExistEnoughtCashThenThrowNotSufficientChangeException - 2019.06.20 at 13h 21m 50s.xml">
       <configuration name="TestVendingMachine.testWhenDoesNotExistEnoughtCashThenThrowNotSufficientChangeException" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestVendingMachine_testWhenNotEnoughtCoinAreAddedIntoVMThenThrowNotFullyPaidException - 2019.06.20 at 13h 24m 11s.xml">
+      <configuration name="TestVendingMachine.testWhenNotEnoughtCoinAreAddedIntoVMThenThrowNotFullyPaidException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestVendingMachine_testWhenNotEnoughtCoinAreAddedIntoVMThenThrowNotFullyPaidException - 2019.06.20 at 13h 24m 22s.xml">
+      <configuration name="TestVendingMachine.testWhenNotEnoughtCoinAreAddedIntoVMThenThrowNotFullyPaidException" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -357,7 +361,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.39231825" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.041152265" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -535,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestVendingMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="102" column="48" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
+        <state relative-caret-position="131">
+          <caret line="93" column="53" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#620#621#0" expanded="true" />
